@@ -1,0 +1,20 @@
+nav {
+    margin-bottom: 30px;
+}
+body {
+    background-image: url('circuit.png');
+    <!-- This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
+    that's where to get'em.-->
+}
+img {
+    min-width: 100px;
+}
+.container {
+    background-color: white;
+}
+
+#image {
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 1px;
+}
