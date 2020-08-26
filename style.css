@@ -3,7 +3,7 @@ nav {
 }
 
 body {
-    background-image: "Assets/circuit.png";
+    background-image: url('Assets/circuit.png');
     /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
     that's where to get'em.*/
 }
