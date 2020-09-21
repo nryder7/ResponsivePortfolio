@@ -10,8 +10,12 @@ body {
 
 h1 {
     text-align: center;
-    color: #EEEEEE;
-    background-color: #607D8B;
+    /* color:#ECEFF1; */
+    color: white;
+
+    /* background-color: #607D8B; */
+    /* background-color: #C5CAE9; */
+    background-color:#9FA8DA;
     padding: 20px;
     margin-bottom: 30px;
 }
@@ -21,8 +25,17 @@ p.card-title {
     font-size: 1 em;
 }
 
+#card {
+    background-color: #E8EAF6;
+}
+#card-body{
+    background-color:#B0BEC5; 
+    margin-bottom:10px;
+}
+
 #aboutMeContainer {
     margin-top: 30px;
+    /* background-color: #E8EAF6; */
 }
 
 #aboutMeText {
@@ -39,7 +52,7 @@ img {
 #image {
     float: left;
     margin-right: 3px;
-    margin-bottom: 1px;
+    margin-bottom: 0;
 }
 
 .container {
