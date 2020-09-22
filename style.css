@@ -47,11 +47,14 @@ img {
 }
 
 
-.container-fluid {
+/* .container-fluid {
     margin: auto;
-}
+} */
 
 .card {
     padding: 1.3rem;
 }
 
+h5 {
+    text-align: center;
+}

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -28,51 +28,117 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
-            </ul>
         </div>
     </nav>
 
-
     <h1>Portfolio</h1>
-
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="col mb-4">
                 <div class="card">
-                    <p class="card-title">Password Generator</p>
+                    <h5 class="card-title">
+                        <a href="https://nryder7.github.io/PasswordGenerator/" target="_blank">Password
+                            Generator</a>
+                 </h5>
+                    <img src="Assets/password.png" class="card-img-top" alt="Password Generator">
                     <div class="card-body">
-                        <img src="Assets/password.png" class="img-thumbnail" alt="Password Generator" />
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/PasswordGenerator" target="_blank">GitHub Repository</a>
+                        </div>
                     </div>
-                    <ul><a href="https://nryder7.github.io/PasswordGenerator/" target="_blank"> Password Generator</a>
-                    </ul>
-                    <ul><a href="https://github.com/nryder7/PasswordGenerator" target="_blank"> GitHub Repository</a>
-                    </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col mb-4">
                 <div class="card">
-                    <p class="card-title">Weather Dashboard</p>
+                    <h5 class="card-title">
+                        <a href="https://nryder7.github.io/WeatherDashboard/" target="_blank">Weather Dashboard</a>
+                    </h5>
+                    <img src="Assets/weatherdashboard.png" class="card-img-top" alt="Life Juice">
                     <div class="card-body">
-                        <img src="Assets/weatherdashboard.png" class="img-thumbnail" alt="Weather Dashboard" />
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/WeatherDashboard/" target="_blank">GitHub Repository</a>
+                        </div>
                     </div>
-                    <ul><a href="https://nryder7.github.io/WeatherDashboard/" target="_blank"> Weather Dashboard</a>
-                    </ul>
-                    <ul><a href="https://github.com/nryder7/WeatherDashboard" target="_blank"> GitHub Repository</a>
-                    </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col mb-4">
                 <div class="card">
-                    <p class="card-title">Group Project #1</p>
+                    <h5 class="card-title">
+                        <a href="https://nryder7.github.io/LifeJuice/" target="_blank">LifeJuice</a>
+                    </h5>
+                    <img src="Assets/lifejuice.png" class="card-img-top" alt="Life Juice">
                     <div class="card-body">
-                        <img src="Assets/lifejuice.png" class="img-thumbnail" alt="Life Juice" />
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/LifeJuice" target="_blank">GitHub Repository</a>
+                        </div>
                     </div>
-                    <ul><a href="https://nryder7.github.io/LifeJuice/" target="_blank"> Life Juice</a></ul>
-                    <ul><a href="https://github.com/nryder7/LifeJuice" target="_blank"> GitHub Repository</a></ul>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <h5 class="card-title">
+                        <a href="https://enigmatic-dawn-62925.herokuapp.com/" target="_blank">Note Taker</a>
+                    </h5>
+                    <img src="Assets/notetaker.png" class="card-img-top" alt="Note Taker">
+                    <div class="card-body">
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/Note-Taker" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <h5 class="card-title">
+                        <a href="" id="gifText" data-toggle="modal" data-target="#exampleModal">
+                            Employee Tracker
+                        </a></h5>
+                    <img src="Assets/employeetracker.png" class="card-img-top" alt="Life Juice">
+                    <div class="card-body">
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/Employee-Tracker" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <h5 class="card-title">
+                        <a href="https://fit-link.herokuapp.com/" target="_blank">fitLink</a>
+                    </h5>
+                    <img src="Assets/fitLink.png" class="card-img-top" alt="fitLink">
+                    <div class="card-body">
+                        <div class="row ml-1 card-text">
+                            <a href="https://github.com/nryder7/fit-link" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Employee Tracker</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="w-100" src="Assets/employeeTracker.gif">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -88,3 +154,8 @@
 </body>
 
 </html>
+
+<div class="row">
+</div>
+<div class="row">
+</div>
