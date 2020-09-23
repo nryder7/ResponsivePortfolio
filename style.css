@@ -40,9 +40,9 @@ p.card-title {
     font-size: 1 em;
 }
 
-.container {
-    background-color:rgb(245, 245, 245);
-}
+/* .container {
+    background-color:rgb(235, 235, 235);
+} */
 
 #aboutMeContainer {
     margin-top: 30px;
@@ -53,13 +53,13 @@ p.card-title {
 #aboutMeText {
     text-align:left;
 }
-
+ 
 #contactMeContainer {
-    /* margin-top: 25px; */
+    
     background-image: url('Assets/dust_scratches.png');
 }
 .list-group-item {
-    /* margin-top: 25px; */
+    
     background-image: url('Assets/dust_scratches.png');
 }
 
