@@ -3,10 +3,19 @@
 
 } */
 
-body {
+body.port {
 
     /* background-image: url('Assets/circles-light.png'); */
     background-image: url('Assets/dust_scratches.png');
+    opacity: 0.95;
+    /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
+    that's where to get'em.*/
+}
+
+body {
+
+    /* background-image: url('Assets/circles-light.png'); */
+    background-image: url('Assets/tweed_@2X.png');
     opacity: 0.95;
     /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
     that's where to get'em.*/
@@ -40,14 +49,10 @@ p.card-title {
     font-size: 1 em;
 }
 
-/* .container {
-    background-color:rgb(235, 235, 235);
-} */
-
 #aboutMeContainer {
     margin-top: 30px;
     padding: 20px;
-    /* background-image: url('Assets/dust_scratches.png'); */
+    background-image: url('Assets/dust_scratches.png');
 }
 
 #aboutMeText {
@@ -55,9 +60,10 @@ p.card-title {
 }
  
 #contactMeContainer {
-    
+    margin-top: 40px;
     background-image: url('Assets/dust_scratches.png');
 }
+
 .list-group-item {
     
     background-image: url('Assets/dust_scratches.png');
@@ -66,12 +72,12 @@ p.card-title {
 /* img {
     margin-bottom: 10px;
 } */
+
 #image {
     float: left;
     margin-right: 3px;
     margin-bottom: 1px;
 }
-
 
 /* .container-fluid {
     margin: auto;
