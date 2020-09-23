@@ -3,14 +3,14 @@
 
 } */
 
-body.port {
+/* body.port {
 
-    /* background-image: url('Assets/circles-light.png'); */
+    background-image: url('Assets/circles-light.png'); 
     background-image: url('Assets/dust_scratches.png');
     opacity: 0.95;
-    /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
-    that's where to get'em.*/
-}
+     This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ If you need more,
+    that's where to get'em. *
+} */
 
 body {
 
@@ -25,7 +25,10 @@ h1 {
     font-size: 2.8rem;
     text-align: center;
     font-weight: bold;
-    color: #3e464d;  
+    /* color: #3e464d;   */
+    /* color: #ECEFF1; */
+    color: #F5F5F5;
+    /* color:#EEEEEE; */
  
     padding:10px;
     margin-bottom:10px;
